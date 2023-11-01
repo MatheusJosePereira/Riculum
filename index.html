@@ -1,57 +1,73 @@
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="index.css">
-  <title>Meu curriculo</title>
-</head>
-<body>
-    <header>
-      <div class="meu-cabecalho">
-        <img src="Matheusjosé_fotoproa.jpg" width="100px" alt="Foto perfil">
-        <h1>Laura Lopes dos Santos</h1>
-      </div>
-    </header>
-    <main>
-      <div class="container-conteudo">
-        <ul>
-          <li>
-            <h2 class="meu-titulo-conteudo">Objetivo</h2>
-            <p>Em busca do meu primeiro emprego</p>
-          </li>
-          <li class="meu-titulo-conteudo">
-            <h2>Histórico Profissional</h2>
-            <p> Nunca trabalhei</p>
-          </li>
-          <li class="meu-titulo-conteudo">
-            <h2>Formação Acadêmica</h2>
-            <p> Curso de HTML, css, e java pelo <a href="https://www.proa.org.br/proprofissao/" target="_blank">Intituto PROA</a> , 2023;</p>
-          </li>
-        </ul>
-      </div>
-      <div class="container-contato">
-        <ul>
-          <li>
-            <h2>Contato</h2>
-            <p>Endereço</p>
-            <p>55 11 94559-7146</p>
-            <p>lopeslaura498@gmail.com</p>
-          </li>
-          <li>
-            <h2>Competências</h2>
-            <p>Dedicada</p>
-            <p>Atenciosa</p>
-            <p>Comunicativa</p>
-            <p>Evolução constante</p>
-          </li>
-        </ul>
-      </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </main>
-  <footer>
-    <p class="copyright">© Copyright Laura Lopes 2023</p>
-  </footer>
-</body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A1A5FA;" custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo_nav" src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meus curriculos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ajuda
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Acessibilidade</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <div class="corpo_button_nav">
+                <button type="button" class="btn btn-primary">Sign in</button>
+                <button type="button" class="btn btn-primary">Login</button>
+                
+              </div>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container-fluid header_caixa">
+          <h1 class="titulo_header"><span class="R_header">R</span>iculum</h1>
+          <p class="descricao_header">"Empoderando Você na Criação do Seu Próprio Currículo. Nós Não Fazemos por Você, Nós Fazemos Com Você!</p>
+          <a class="button_nav" style="--clr:#1e9bff" href=""><span>Cadastre-se</span><i class="item_button"></i></a>
+        </div>
+
+        <div class="container-fluid header_caixa2">
+          <img class="undraw_header" src="img/imagem_undraw.svg" alt="">
+        </div>
+
+      </header>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
