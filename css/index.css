@@ -13,6 +13,7 @@
   src: url(../fonts/Charm/Charm-Bold.ttf);
 }
 
+
 *{
   margin: 0;
 }
@@ -140,7 +141,7 @@
   header{
     width: 100%;
     height: 450px;
-    background-color: #c5cbe2;
+    background-color: #e6e8f1;
     position: relative;
     display: flex;
     align-items: center;
@@ -149,7 +150,7 @@
 
   .header_caixa{
     width: 43%;
-    background: #c5cbe2;
+    background: #e6e8f1;
     height: 400px;
     display: flex;
     align-items: center;
@@ -277,6 +278,210 @@
   font-family: Poppinslgt;
 }
 
+.corpo_ferramentas{
+  width: 100%;
+  height: 695px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.ferramentas_caixa{
+  width: 80%;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo_word{
+  width: 80%;
+  height: 100px;
+  background-color: #ffffff00;
+  margin-bottom: 100px;
+  display: flex;
+  margin-top: 60px;
+  
+}
+
+.descricao_word{
+  margin-left: 50px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.word{
+  width: 550px;
+  height: 120px;
+  background-color: #ffffff00;
+  border-radius: 0px;
+  background-image: url(../img/word.png);
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 120px;
+}
+
+.corpo_docs{
+  width: 80%;
+  height: 100px;
+  background-color: #ffffff00;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.descricao_docs{
+  margin-left: 60px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.docs{
+  width: 500px;
+  height: 130px;
+  background-color: #ffffff;
+  border-radius: 0px;
+  background-image: url(../img/docs.png);
+  background-size: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.corpo_linkedin{
+  width: 80%;
+  height: 100px;
+  background-color: #ffffff00;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.descricao_linkedin{
+  margin-left: 60px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.linkedin{
+  width: 320px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 0px;
+  background-image: url(../img/linkedin.png);
+  background-size: cover;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+
+
+.downloads{
+  text-decoration: none;
+  font-family: Poppinslgt;
+  font-size: 22px;
+}
+
+.flaticon{
+  color: aqua;
+  font-size: 22px;
+  text-align: center;
+  font-family: Poppinslgt;
+  font-weight: bold;
+}
 
 /*Sessão ferramentas final*/
+
+/*Sessão nossos Curriculos*/
+
+.titulo_CurriculosExemplares{
+  text-align: center;
+  padding-top: 50px;
+  font-family: Poppinslgt;
+  color: #edeff3;
+}
+
+.R_curriculos{
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  font-family: 'Charm';
+}
+
+.sessao_curriulos{
+  width: 100%;
+  height: 1000px;
+  background-color: #9aa9e4;
+  background-image: url(../img/fundo_curriculo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.curriculos_carrosel{
+  width: 50%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 400px;
+  margin-top: 120px;
+}
+
+.tamanho{
+  width: 600px;
+  margin-left: 50px;
+}
+
+.github_carrosel{
+  width: 50px;
+  margin-right: 120px;
+}
+
+.linkedin_carrosel{
+  width: 50px;
+  margin-left: 120px;
+}
+
+.nome_curriculo{
+  color: #0e3dfc;
+  margin-bottom: 470px;
+}
+
+/*Fim sessão nossos curriculos*/
+
+
+/*Inicio sessão videos*/
+.corpo_sessaovideos{
+  width: 100%;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.titulo_sessaovideos{
+  text-align: center;
+  padding-top: 50px;
+  font-family: Poppinslgt;
+}
+
+/*Footer inicio*/
+footer{
+  margin-top: 300px;
+}
+
+.logo_footer{
+width: 80px;  
+}
+
+.btn-outline-light{
+  color: #9aa9e4;
+  border-color: #9aa9e4;
+  transition: transform 0.6s;
+}
+
+.btn-outline-light:hover{
+  color: #0030ee;
+  background-color: #ffffff00;
+  border-color: #0030ee;
+  transform: rotate(360deg);
+  
+}
+
+/*Footer fim*/
