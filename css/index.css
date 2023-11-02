@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Popinslgt';
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Charm';
+  src: url(../fonts/Charm/Charm-Bold.ttf);
+}
 
 *{
   margin: 0;
@@ -17,10 +31,11 @@
 
 .navbar-nav .nav-link {
     color: #FFFFFF !important; /* Cor dos links */
-    margin-top: 13px;
+    margin-top: 15px;
     font-size: 20px;
     margin-left:30px;
     margin-right: 00px;
+    font-family: 'Popinslgt';
     
   }
   
@@ -31,20 +46,21 @@
 
   .corpo_button_nav{
     margin-left: 600px;
-    margin-top: 20px;
+    margin-top: 14px;
   }
 
   .btn-primary{
     padding: 10px 10px;
     font-size: 18px;
     margin-left: 20px;
+    font-family: 'Popinslgt';
   }
 
-  .button_nav{
+  .button_nav{ /*Botão da header*/
     position: relative;
     background: #FFFFFF;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     letter-spacing: 0.1em;
     font-size: 18px;
     font-weight: 400;
@@ -52,7 +68,7 @@
     transition: 0.5s;
     color: #ffffff;
     gap: 2px;
-    margin-left: -55px;
+    margin-left: -5px;
     
   }
 
@@ -160,23 +176,107 @@
     margin-bottom: 30px;
     margin-right: 50px;
     color: rgb(112, 112, 240);
+    font-family: 'Poppinslgt';
   }
 
   .descricao_header{
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom:40px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .R_header{
     color: rgb(255, 255, 255);
     font-size: 75px;
+    font-family: 'Charm';    
   }
 
 
 
   /*Fim header*/
 
+/*Inicio Sessão sobre */
 
-  
+.sessao_importanteCurriculo{
+  width: 100%;
+  height: 750px;
+  background-color: #9aa9e4;
+}
+
+.titulo_importanteCurriculo{
+  text-align: center;
+  padding-top: 50px;
+  font-family: Poppinslgt;
+}
+
+.descricao_ImportanteCurriculo{
+  width: 45%;
+  background-color: #9aa9e4;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 20px;
+  margin-left: 40px;
+  font-family: Montserrat , sans-serif;
+  position: relative;
+  float: left;
+  color: white;
+}
+
+.informacao_ImportanteCurriculo{
+  margin-top: 50px;
+}
+
+
+
+
+.curriculo_exemplo_corpo{
+  width: 40%;
+  height: 650px;
+  background-color: #9aa9e4;
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-image: url(../img/curriculo_exemplo.jpg);
+  background-size: cover;
+  transform: scale(0.8);
+}
+
+
+
+
+.fonte_Pinterest_corpo{
+  position: absolute;
+  top: 620px;
+  color: red;
+}
+
+.vamosla{
+  font-size: 42px;
+  margin-top: 20px;
+  font-family: Charm;
+}
+
+/*Fim sessão sobre */
+
+
+/*Sessão ferramentas inicio*/
+
+.ferramentas_curriculo{
+  width: 100%;
+  height: 900px;
+  background-color: white;
+
+}
+
+.ferramentas_titulo{
+  text-align: center;
+  padding-top: 50px;
+  font-family: Poppinslgt;
+}
+
+
+
+/*Sessão ferramentas final*/
