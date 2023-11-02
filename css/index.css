@@ -473,7 +473,7 @@ width: 80px;
 .btn-outline-light{
   color: #9aa9e4;
   border-color: #9aa9e4;
-  transition: transform 0.6s;
+  transition: transform 1s;
 }
 
 .btn-outline-light:hover{
