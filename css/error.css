@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Popinslgt';
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Charm';
+    src: url(../fonts/Charm/Charm-Bold.ttf);
+  }
+
+  
+body{
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #495fb6;
+    flex-direction: column;
+}
+
+.logo_error{
+    width: 250px;
+    margin-bottom: 0px;
+}
+
+.titulo_error{
+    margin-bottom: 60px;
+    font-family: Montserrat;
+}
+
+.botao-carregamento {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top: 3px solid #ffffff;
+    border-radius: 50%;
+    animation: girar 0.6s linear infinite;
+    visibility: hidden;
+  }
+  
+  @keyframes girar {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+.texto-carregando {
+    visibility: visible;
+  }
+  
+  .link_error{
+    text-decoration: none;
+    color: white;
+    font-family: Poppinslgt;
+  }
+  
+  

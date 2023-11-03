@@ -426,6 +426,21 @@
   margin-left: 50px;
 }
 
+.tamanho2{
+  width: 400px;
+  margin-left: 160px;
+}
+
+.tamanho3{
+  width: 480px;
+  margin-left: 140px;
+}
+
+.tamanho4{
+  width: 530px;
+  margin-left: 120px;
+}
+
 .github_carrosel{
   width: 50px;
   margin-right: 120px;
